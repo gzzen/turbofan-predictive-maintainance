@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from pathlib import Path
 
 DRIFT_P_THRESHOLD = 0.05
-STATIC_DIR = Path("demo/static")
+STATIC_DIR = Path("static")
 
 st.set_page_config(page_title="CMAPSS RUL Monitor", layout="wide")
 
