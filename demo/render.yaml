@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cmapss-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard_static.py --server.port $PORT --server.address 0.0.0.0
